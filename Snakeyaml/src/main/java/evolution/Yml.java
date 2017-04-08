@@ -9,7 +9,7 @@ import org.yaml.snakeyaml.Yaml;
 
 import evolution.util.Sys;
 
-public class Application {
+public class Yml {
 	public static void write(Object object, String filePath, boolean overwrite, boolean printLog) {
 		// File Configurations
 		File file = new File(filePath);

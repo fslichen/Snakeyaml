@@ -32,6 +32,6 @@ public class ApplicationTest {
 		theOtherDto.setDate(new Date());
 		anyDto.setTheOtherDto(theOtherDto);
 		// Generate yml file. 
-		Application.write(anyDto, "/home/chen/Desktop/Playground/Data/Yml_Output.yml", true, true);
+		Yml.write(anyDto, "/home/chen/Desktop/Playground/Data/Yml_Output.yml", true, true);
 	}
 }
