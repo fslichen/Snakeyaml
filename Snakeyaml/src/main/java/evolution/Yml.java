@@ -19,8 +19,6 @@ public class Yml {
 			if (overwrite == false) {
 				Sys.println("The file " + filePath + " already exists. In order to overwrite, set the overwrite property as true.");
 				return;
-			} else {
-				Sys.println("The file " + filePath + " will be overwritten.");
 			}
 		}
 		// Set Options
